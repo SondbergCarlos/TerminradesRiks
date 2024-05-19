@@ -1,0 +1,71 @@
+---------------uzstādīšāna--------------------
+1. uzstādīt Python3 ja jau nav vai ir vecāka versija par 3.7 https://www.python.org/downloads/
+1.1. ja vajag nomanīt izmantoto Pyrhon versiju, pamācību var atrast šeit: https://phoenixnap.com/kb/upgrade-python
+2. pēc nepieciešamības, uzstādīt pakotņu pārvaldniekprogrammu pip https://pip.pypa.io/en/stable/cli/pip_download/
+3. CMD programmā uz Windows vai terminālī uz MAC vai Linux palaidiet sekojošas komandas:
+	pip install requests
+	pip install beautifulsoup4
+3.1. neobligāti uzstādiet lxml ātrdarbībai izmantojot komandu:
+	pip install lxml
+3.2. ja rāda kļūdu par tkinter biblotēku, manuāli uzstādiet to (šī bibliotēka parasti nāk kā standartbibliotēka ar python instalāciju)
+	3.2.1. uz MAC uzstāda terminālī lietojot komandu:
+		sudo apt-get install python3-tk
+	3.2.2. uz Windows un Linux var uzstadīt uzstādot ActivePython no https://platform.activestate.com/featured-projects
+4. sāciet lietot programmu 
+
+-------------lietošana---------------------
+Lietošanas piemēru iegūšana:
+1. izvēlaties kategoriju, kuras saites vēlaties atvērt
+2. ievadiet vēlamo vārdu
+3. spiediet "Atvērt Saites"
+
+Termina nozīmes iegūšana:
+1. atveriet lapu "Iegūt Nozīmi"
+2. izvēlaties kategoriju, kuras avotos vēlaties meklēt vārda nozīmi
+3. ievadiet vēlamo vārdu
+4. (neobligāti) ja vēlaties saglabāt iegūtos rezultātus, atzīmējiet lauku "Saglabāt rezultātus failā?"
+5. spiediet pogu "Meklēt"
+
+Avotu pievienošana:
+1. atveriet lapu "Pievienot Avotus"
+2. Izvēlaties, kādas darbības kategorijas sarakstam vēlaties pievienot avotu un aizpildiet tam  nepieciešamos laukus
+	2.1. ievadiet jebkādu, sev saprotamu avota nosaukumu
+	2.2. ievadiet avota saites prototipu, aizvietojot saitē esošo terminu ar '()'
+		2.2.1. piemēram, https://en.wikipedia.org/wiki/Name kļūst par https://en.wikipedia.org/wiki/{}
+		2.2.2. ja vietnei nav saprotama saite, kurā var redzēt terminu, pārbaudiet, vai vietnei ir pamācība izstrādātājiem, kurā ir paskaidrots, kā veidot terminu, ja šādas lapas nav, šo avotu nevar pievienot
+		2.2.3. ja vietnei vajag pieslegties, lai iegūtu informāciju no tās, šo avotu nevar pievienot
+	2.3. (tikai "Iegūt Nozīmi" avotiem) ievadiet sadaļu (div) HTML elementam, kurā atrodas termins, to var atrast vietnē, spiežot ar labo peles pogu uz termina, izvēloties "Inspect", pareizi izdarot, tiks iekrāsots šis HTML elements, šajā kodā ir redzama šī sadaļa
+	2.4. (tikai "Iegūt Nozīmi" avotiem) ievadiet laukā "Klases Nosaukums" vai "ID Priekšdaļa", to var atrast tā pat kā Sadaļu, tas atbilst "class_name"
+		2.4.1. "ID priekšdaļa" ir klasēm, kuras indeksējas, piemēram, ja vietnē ir vairākas nozīmes un tās ir ar vienādu klases tipu, kurš tiek indeksēts (name_1, name_2 utt.), ir jāievada šis nodaukums, kar ir pirms indeksa (name_1 -> name)
+		2.4.2. ja nav indeksēts klases elements, jāievada "Klases Nosaukums" pilns elementa klases nosaukums
+		2.4.3. NAV JĀIZPILDA "KLASES NODAUKUMS" UN "ID PRIEKŠDAĻA", ja abi lauki ir aipildīti, tiks parādīta kļūda
+	2.5. izvēlaties sarakstu, kuram pieveinot avotu
+	2.6. spiediet pogus "Pievienot avotu"
+
+Sarakstu pievienošana:
+1. atveriet lapu "Pievienot Avotu Sarakstus"
+2. ievadiet jebkādu, sev saprotamu avotu saraksta nosaukumu
+3. izvēlaties kategoriju sarakstam (atvērt saites -> open_links, iegūt nozīmi -> retrieve_explenation)
+4. Spiediet pogu "Izveidot Jaunu Sarakstu"
+
+Avotu Labošana:
+1. atveriet lapu "Pievienot Avotus"
+2. sadaļā "Labot Sarakstu" izvēlaties sarakstu, kura avotu vēlaties labot
+3. izvēlaties labojamo sarakstu
+4. atbilstošajā sadaļā tika aizpildīti lauki ar šī avota informāciju, mainiet to, kas nepieciešams
+5. spiediet pogu "Labot Avotu"
+
+Avotu dzēšana:
+1. atveriet lapu "Pievienot Avotus"
+2. sadaļā "Labot Sarakstu" izvēlaties sarakstu, kura avotu vēlaties dzēst
+3. izvēlaties dzēšamo avotu
+4. spiediet pogu "Dzēst Avotu"
+
+Sarakstu dzēšana:
+1. atveriet lapu "Pievienot Avotus"
+2. sadaļā "Labot Sarakstu" izvēlaties sarakstu, kuru vēlaties dzēst
+3. izvēlaties dzēšamo sarakstu
+4. spiediet pogu "Dzēst Sarakstu"
+
+Papildus ieteikumi:
+1. ja veicāt izmaiņas sarakstam vai avotam, ja izmaiņas nav redzamas, avotu vai sarakstu vairs nevar atrasts, restartējiet programmu

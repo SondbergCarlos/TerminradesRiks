@@ -1,0 +1,62 @@
+{
+    "explanation_links": [
+        {
+            "name": "Wikipedia",
+            "link_prototype": "https://en.wikipedia.org/wiki/{}"
+        },
+        {
+            "name": "Linguee",
+            "link_prototype": "https://www.linguee.com/english-latvian/search?source=auto&query={}\""
+        },
+        {
+            "name": "Google",
+            "link_prototype": "https://www.google.com/search?q={}"
+        },
+        {
+            "name": "Google Scholar",
+            "link_prototype": "https://scholar.google.com/scholar?q={}"
+        },
+        {
+            "name": "DuckDuckGo",
+            "link_prototype": "https://duckduckgo.com/?q={}"
+        },
+        {
+            "name": "Linguee",
+            "link_prototype": "https://www.linguee.com/english-latvian/search?source=auto&query={}"
+        }
+    ],
+    "example_links": [
+        {
+            "name": "Wikipedia",
+            "link_prototype": "https://lv.wikipedia.org/wiki/{}"
+        },
+        {
+            "name": "Google",
+            "link_prototype": "https://www.google.com/search?q={}"
+        },
+        {
+            "name": "Google Scholar",
+            "link_prototype": "https://scholar.google.com/scholar?q={}"
+        },
+        {
+            "name": "DuckDuckGo",
+            "link_prototype": "https://duckduckgo.com/?q={}"
+        },
+        {
+            "name": "Likumi.lv",
+            "link_prototype": "https://likumi.lv/google_search.php?cx=009844013171831310159%3Avxe2anixcfq&cof=FORID%3A11&sa=Mekl%C4%93t&num=20&lang_ui=lv&q={}"
+        },
+        {
+            "name": "Periodika.lv",
+            "link_prototype": "http://periodika.lv/#searchResults:%23{}"
+        },
+        {
+            "name": "Digital\u0101 bibliot\u0113ka",
+            "link_prototype": "https://www.digitalabiblioteka.lv/?q={}"
+        },
+        {
+            "name": "Linguee",
+            "link_prototype": "https://www.linguee.com/english-latvian/search?source=auto&query={}"
+        }
+    ]
+}

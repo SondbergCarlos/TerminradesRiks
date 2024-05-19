@@ -1,0 +1,60 @@
+{
+    "sites_english": [
+        {
+            "name": "Merriam Webster",
+            "link_prototype": "https://www.merriam-webster.com/dictionary/{}",
+            "section": "span",
+            "class_name": "dtText"
+        },
+        {
+            "name": "onelook",
+            "link_prototype": "https://onelook.com/?w={}&ls=a",
+            "section": "span",
+            "id_prefix": "easel_def__"
+        },
+        {
+            "name": "akadterm",
+            "link_prototype": "http://www.akadterm.lv/term.php?term={}&lang=EN",
+            "section": "div",
+            "class_name": "entryline"
+        }
+    ],
+    "sites_latvian": [
+        {
+            "name": "Termini.gov.lv",
+            "link_prototype": "https://termini.gov.lv/atrast/{}",
+            "section": "div",
+            "class_name": "result pt-0"
+        },
+        {
+            "name": "akadterm",
+            "link_prototype": "http://www.akadterm.lv/term.php?term={}&lang=LV",
+            "section": "div",
+            "class_name": "entryline"
+        },
+        {
+            "name": "Tezaurs.lv",
+            "link_prototype": "https://tezaurs.lv/{}",
+            "section": "div",
+            "class_name": "dict_Sense"
+        },
+        {
+            "name": "Letonika.lv",
+            "link_prototype": "https://www.letonika.lv/groups/default.aspx?q={}&s=0&g=5&r=0",
+            "section": "table",
+            "class_name": "searchResults"
+        },
+        {
+            "name": "MLVV",
+            "link_prototype": "https://mlvv.tezaurs.lv/{}",
+            "section": "span",
+            "class_name": "dict_Gloss"
+        },
+        {
+            "name": "lLVV",
+            "link_prototype": "https://llvv.tezaurs.lv/{}",
+            "section": "span",
+            "class_name": "dict_Gloss"
+        }
+    ]
+}
